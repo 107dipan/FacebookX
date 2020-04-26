@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.rubber.band.facebookX.model.ProfileDB"
+		table="profiledb">
+		<id name="userId" column="userId" type="string" />
+		<property name="name" column="name" type="string" />
+		<property name="dateOfBirth" column="dob" type="date" />
+		<property name="gender" column="gender" type="string" />
+		<property name="placeOfBirth" column ="placeOfBirth" type="string"></property>
+		<property name="work" column="work" type="string" />
+		<property name="university" column="university" type="string" />
+	</class>
+</hibernate-mapping>

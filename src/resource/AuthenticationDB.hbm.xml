@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.rubber.band.facebookX.model.AuthenticationDB"
+		table="authenticationdb">
+		<id name="emailId" column="emailId" type="string" />
+		<property name="password" column="password" type="string" />
+		<property name="id" column="userid" type="string" />
+	</class>
+</hibernate-mapping>
